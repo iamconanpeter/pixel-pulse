@@ -1,0 +1,43 @@
+# Unity
+/[Ll]ibrary/
+ /[Tt]emp/
+ /[Oo]bj/
+ /[Bb]uild/
+ /[Bb]uilds/
+ /LocalSettings.asset
+ /[Aa]ssets/*/Library
+ /[Ll]og/
+
+# Visual Studio
+ [. ]/*.csproj
+ *.unityproj
+ *.sln
+ *.svd
+ *.user
+ *.userprefs
+ *.pidb
+ *.booproj
+ *.svdproj
+
+# OS
+.DS_Store
+Desktop.ini
+
+# Gradle
+.gradle
+/local.properties
+/.idea
+*.iml
+*.ap_
+*.aab
+*.apk
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Build
+bin/
+gen/
+.gradle/
