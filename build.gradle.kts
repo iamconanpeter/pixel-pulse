@@ -1,16 +1,11 @@
 plugins {
-    kotlin("jvm") version "1.9.0"
-    `java-library`
+    id("com.android.application") version "8.2.0" apply false
+    kotlin("android") version "1.9.20" apply false
 }
 
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    testImplementation(kotlin("test"))
-}
-
-tasks.test {
-    useJUnitPlatform()
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
 }
